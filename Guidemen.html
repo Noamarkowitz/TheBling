@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="he"> 
+<head>
+    <meta charset="utf-8" />
+    <title>The Bling - Guide Men</title>
+    <meta name="description" content="עמוד מדריכים לגברים המחפשים מתנות עבור אישה" />
+    <meta name="keywords" content="המדריך לגבר האבוד" />
+    <meta name="author" content="נועה מרקוביץ, אופיר לבקוביץ ושחר רוזן" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+    <link rel="icon" href="Images/SiteIcon.png" />
+    <!--<link href="styles/reset.css" rel="stylesheet" />-->
+    <link href="styles/GuideMen.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+</head>
+<body>
+    <div id="container">
+        <div id="frame">
+            <div id="mainNav">
+                <nav role="navigation">
+                    <ul>
+                        <li><a href="index.html"><img id="Logo" class="logoCenter" src="Images/SiteLogo.png" /></a></li>
+                        <li><a class="notAllowed" href="#">אופנה</a></li>|
+                        <li><a href="Guides.html">מדריכים</a></li>|
+                        <li><a href="Gems.html">אבני חן</a></li>|
+                        <li><a class="active" href="Guidemen.html">המדריך לגבר האבוד</a></li>|
+                        <li><a href="About.html">אודות</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <hr />
+            <nav id="breadCrumbs">
+                <ol>
+                    <li><a href="index.html">דף הבית </a></li>
+                    <li>המדריך לגבר האבוד</li>
+                </ol>
+            </nav>
+            <header class="header">
+                <h1>המדריך לגבר האבוד</h1>
+            </header>
+            <img id="headline" src="Images/line masusa.png" />
+            <div>
+                <a onclick="big()" href="#"><img id="access" src="Images/Accessability.png" /></a>
+                <script>
+                    var isbig = true
+                    function big() {
+                        var body = document.getElementsByTagName('body')[0];
+                        isbig == true ? body.style.zoom = "200%" : body.style.zoom = "100%";
+                        isbig == true ? isbig = false : isbig = true;
+                    }
+                </script>
+            </div>
+            <p><h3>מה אתה מחפש?</h3></p>
+            <div>
+                <div id="giftmenu">
+                    <a href="GuideMenRings.html">
+                        <img src="Images/menguide.ring.png" />
+                        <span id="caption">טבעת אירוסין</span>
+                    </a>
+                </div>
+                <div id="giftmenu">
+                    <img class="notAllowed" src="Images/guidemen.heart.png" />
+                    <span class="notAllowed" id="caption">יום האהבה</span>
+                </div>
+                <div id="giftmenu">
+                    <img class="notAllowed" src="Images/present.menguide.png" />
+                    <span class="notAllowed" id="caption">יום הולדת</span>
+                </div>
+            </div>
+            <footer>
+                <hr />
+                <a href="SiteMap.html">מפת האתר</a> |
+                <a href="ContactUs.html">צור קשר</a>
+                <br />
+                Ⓒ כל הזכויות שמורות ליוצרות האתר
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>The Bling - Home Page</title>
+    <meta name="description" content="דף הבית" />
+    <meta name="keywords" content="דף הבית" />
+    <meta name="author" content="נועה מרקוביץ, אופיר לבקוביץ ושחר רוזן" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+    <link rel="icon" href="Images/SiteIcon.png" />
+    <link rel="icon" href="Images/SiteIcon.png" />
+    <!--<link href="styles/reset.css" rel="stylesheet" />-->
+    <link href="styles/HomePage.css" rel="stylesheet" />
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/Access.js"></script>
+
+
+</head>
+<body>
+    <div id="container">
+        <div id="frame">
+            <a href="index.html"><img id="Logo" class="logoCenter" src="Images/SiteLogo.png" /></a>
+            <div id="mainNav">
+                <nav role="navigation">
+                    <ul>
+                        <li><a class="notAllowed" href="#">אופנה</a></li>|
+                        <li><a href="Guides.html">מדריכים</a></li>|
+                        <li><a href="Gems.html">אבני חן</a></li>|
+                        <li><a href="Guidemen.html">המדריך לגבר האבוד</a></li>|
+                        <li><a href="About.html">אודות</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <br /><br /><br />
+            <a onclick="big()" href="#"><img id="access" src="Images/Accessability.png" /></a>
+            <script>
+                var isbig = true
+                function big() {
+                    var body = document.getElementsByTagName('body')[0]; 
+                    isbig == true ? body.style.zoom = "200%": body.style.zoom = "100%";
+                    isbig == true ? isbig = false : isbig = true;
+                }
+            </script>
+            <header>
+                <a href="Gems.html"><img id="PicLink" src="Images/HomePage.header.png" /></a>
+            </header>
+            <img id="line1" src="Images/GrayLine.png" />
+                <h1>כתבות נוספות</h1>
+            <img id="line2" src="Images/GrayLine.png" />
+            <div id="moreArticles">
+                <aside>
+                    <span id="text">תכשיטים בלי בלינג? לא בא בחשבון!</span><br />
+                    <span class="notAllowed"><img alt="כתבה 1" id="articlePix" src="Images/HomePage.article1.png" /></span>
+                </aside>
+                <aside>
+                    <span id="text">קורס עיצוב ב10 דק? בואי ללמוד איך לעצב תכשיטים</span><br />
+                    <span class="notAllowed"><img alt="כתבה 2" id="articlePix" src="Images/HomePage.article2.jpg" /></span>
+                </aside>
+                <aside>
+                    <span id="text">גבר, אל תסתבך.. המתנה המושלמת נמצאת כאן.</span><br />
+                    <a href="Guidemen.html"><img alt="כתבה 3" id="articlePix" src="Images/HomePage.article3.jpg" /></a>
+                </aside>
+            </div>
+            <div id="widePix">
+                <h1 id="sourawomens">לכל אחת יש תכשיט שמתאים בול עבורה, בואי למצוא את שלך!</h1>
+                <img class="notAllowed" alt="כתבה 4" id="womens" src="Images/HomePage.WideArticle1.png" />
+                <br /><br />
+                <h1 id="souraonline">לדעת איך להזמין את התכשיט שלך און ליין בכתבה הבאה </h1>
+                <img class="notAllowed" alt="כתבה 5" id="network" src="Images/HomePage.WideArticle2.png" />
+            </div>
+            התמונות בדף זה נלקחו מאתר <a href="http://www.freepik.com">Freepik</a>
+            <footer>
+                <hr />
+                <a href="SiteMap.html">מפת האתר</a> |
+                <a href="ContactUs.html">צור קשר</a>
+                <br />
+                Ⓒ כל הזכויות שמורות ליוצרות האתר
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

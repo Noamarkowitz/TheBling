@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>The Bling - Contact Us</title>
+    <meta name="description" content="עמוד צור קשר" />
+    <meta name="keywords" content="צור קשר" />
+    <meta name="author" content="נועה מרקוביץ, אופיר לבקוביץ ושחר רוזן" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+    <link rel="icon" href="Images/SiteIcon.png" />
+    <!--<link href="styles/reset.css" rel="stylesheet" />-->
+    <link href="styles/ContactUs.css" rel="stylesheet" />
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+</head>
+<body>
+    <div id="container">
+        <div id="frame">
+            <div id="mainNav">
+                <nav role="navigation">
+                    <ul>
+                        <li><a href="index.html"><img id="Logo" class="logoCenter" src="Images/SiteLogo.png" /></a></li>
+                        <li><a class="notAllowed" href="#">אופנה</a></li>|
+                        <li><a href="Guides.html">מדריכים</a></li>|
+                        <li><a href="Gems.html">אבני חן</a></li>|
+                        <li><a href="Guidemen.html">המדריך לגבר האבוד</a></li>|
+                        <li><a href="About.html">אודות</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <hr />
+            <div id="breadCrumbs">
+                <nav>
+                    <ol>
+                        <li>
+                            <a href="index.html">דף הבית </a>
+                        </li>
+                        <li>צור קשר</li>
+                    </ol>
+                </nav>
+            </div>
+            <a onclick="big()" href="#"><img id="access" src="Images/Accessability.png" /></a>
+            <script>
+                var isbig = true
+                function big() {
+                    var body = document.getElementsByTagName('body')[0];
+                    isbig == true ? body.style.zoom = "200%" : body.style.zoom = "100%";
+                    isbig == true ? isbig = false : isbig = true;
+                }
+            </script>
+            <h1>צור קשר</h1>
+            <img id="headline" src="Images/line masusa.png" />
+            <p>בכדי ליצור עימנו קשר, אנא מלאו את הפרטים הבאים:</p>
+            <form>
+                <label for="firstName">
+                    שם פרטי<br />
+                    <input id="Text1" type="text" aria-label="שם פרטי" />
+                </label>
+                <br /><br />
+                <label for="lastName">
+                    שם משפחה<br />
+                    <input id="Text2" type="text" aria-label="שם משפחה" />
+                </label>
+                <br /><br />
+                <label for="male/female/other">
+                    <input id="Radio1" type="radio" aria-label="זכר" /> זכר
+                    <input id="Radio1" type="radio" aria-label="נקבה" /> נקבה
+                    <input id="Radio1" type="radio" aria-label="אחר" /> אחר
+                </label>
+                <br /><br />
+                <label for="telephoneNumber">
+                    מספר טלפון<br />
+                    <input id="Text3" type="text" aria-label="מספר טלפון" />
+                    <select id="Select1" aria-label="קידומת">
+                        <option>‎050</option>
+                        <option>‎051</option>
+                        <option>052</option>
+                        <option>053</option>
+                        <option>054</option>
+                        <option>055</option>
+                        <option>058</option>
+                    </select>
+                </label>
+                <br /><br />
+                <label for="MailAdress">
+                    כתובת אי-מייל<br />
+                    <input id="Text4" type="text" />
+                </label>
+                <br /><br />
+                <label for="mailNotifications">
+                    <input id="Checkbox1" type="checkbox" /> אני מעוניינ/ת לקבל עדכונים במייל
+                </label>
+                <br /><br />
+                <label for="submitForm">
+                    <input id="Submit1" type="submit" value="שלח" />
+                </label>
+                <br /><br />
+            </form>
+            <p>ניתן ליצור קשר גם בכתובת המייל <a href="#">thebling.nso@gmail.com</a></p>
+            <footer>
+                <hr />
+                <a href="SiteMap.html">מפת האתר</a> |
+                <a href="ContactUs.html">צור קשר</a>
+                <br />
+                Ⓒ כל הזכויות שמורות ליוצרות האתר
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

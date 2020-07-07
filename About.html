@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>The Bling - About</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="נועה מרקוביץ, אופיר לבקוביץ ושחר רוזן" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+    <link rel="icon" href="Images/SiteIcon.png" />
+    <!--<link href="styles/reset.css" rel="stylesheet" />-->
+    <link href="styles/Abuot.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+</head>
+<body>
+    <div id="container">
+        <div id="frame">
+            <div id="mainNav">
+                <nav>
+                    <ul>
+                        <li><a href="index.html"><img id="Logo" class="logoCenter" src="Images/SiteLogo.png" /></a></li>
+                        <li><a class="notAllowed" href="#">אופנה</a></li>|
+                        <li><a href="Guides.html">מדריכים</a></li>|
+                        <li><a href="Gems.html">אבני חן</a></li>|
+                        <li><a href="Guidemen.html">המדריך לגבר האבוד</a></li>|
+                        <li><a class="active" href="About.html">אודות</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <hr />
+            <div id="breadCrumbs">
+                <nav>
+                    <ol>
+                        <li>
+                            <a href="index.html">דף הבית </a>
+                        </li>
+                        <li>אודות</li>
+                    </ol>
+                </nav>
+            </div>
+            <h1>אודות</h1>
+            <img id="stripe" src="Images/line masusa.png" />
+            <div>
+                <a onclick="big()" href="#"><img id="access" src="Images/Accessability.png" /></a>
+                <script>
+                    var isbig = true
+                    function big() {
+                        var body = document.getElementsByTagName('body')[0];
+                        isbig == true ? body.style.zoom = "200%" : body.style.zoom = "100%";
+                        isbig == true ? isbig = false : isbig = true;
+                    }
+                </script>
+            </div>
+            <article id="aboutus">
+                <p>
+                    היי, אנחנו אופיר לבקוביץ', שחר רוזן ונועה מרקוביץ',
+                    סטודנטיות לתואר ראשון לטכנולוגיות למידה במכללת HIT.
+                </p>
+                <p>
+                    שם האתר שפיתחנו הוא The bling,
+                    אתר מגזין העוסק בטרנדים הכי חמים בעולם התכשיטנות, מציע עזרה לבחירת המתנה המושלמת
+                    מדריכים המלמדים כיצד לנקות את התכשיטים, כיצד להכין בעצמנו תכשיטים ואף נותן מידע על אבני חן מבחינה רוחנית.
+                </p>
+                <p>
+                    האתר אופיין ועוצב לפי עקרונות הקורס "עיוצב ממשק משתמש" ב-HTML5 ו-CSS3
+                    תוך התחשבות בעקרונות  "נגישות אתרים".<br />
+                    האתר כולל תוצר אינטרקטיבי של ייצוג ידע שאופיין ופותח בקורס "ארגון ויצוג ידע "
+                    ובקורס "מבוא לתכנות אינטרקטיבי", ופותח באמצעות תוכנת Adobe Animate.
+                </p>
+                <img id="ofir" src="Images/About.Ofir.png" />
+                <p id="ofirtxt">אופיר</p>
+                <img id="sachar" src="Images/About.Shachar.png" />
+                <p id="shachartxt">שחר</p>
+                <img id="noa" src="Images/About.Noa.png" />
+                <p id="noatxt">נועה</p>
+            </article>
+            <article id="pages">
+                <img id="line1" src="Images/GrayLine.png" /> <h2>להלן העמודים שפותחו באתר:</h2>
+                <img id="line2" src="Images/GrayLine.png" />
+                <ul id="bullet">
+                    <li>עמוד הבית </li>
+                    <li>המדריך לגבר האבוד</li>
+                    <li>המדריך לגבר האבוד-טבעת אירוסין</li>
+                    <li>מדריכים</li>
+                    <li>מדריכים-כיצד לנקות את התכשיטים</li>
+                    <li>אודות</li>
+                    <li>צור קשר </li>
+                </ul>
+            </article>
+            <footer>
+                <hr />
+                <a href="SiteMap.html">מפת האתר</a> |
+                <a href="ContactUs.html">צור קשר</a>
+                <br />
+                Ⓒ כל הזכויות שמורות ליוצרות האתר
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

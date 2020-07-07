@@ -1,0 +1,366 @@
+﻿@font-face {
+    font-family: 'DanaYadAlefAlefAlef-Normal';
+    src: url('../Fonts/DanaYadAlefAlefAlef-Normal.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DanaYadAlefAlefAlef-Normal';
+    src: url('../Fonts/DanaYadAlefAlefAlef-Normal.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'yehudaclm-bold-webfont';
+    src: url('../Fonts/yehudaclm-bold-webfont.ttf') format('truetype');
+}
+
+body {
+    direction: rtl;
+}
+
+#container {
+    width: 1183px;
+    margin: auto;
+    text-align: center;
+    border: 40px solid transparent;
+    padding-bottom: 0px;
+    font-family: 'yehudaclm-bold-webfont';
+    border-image: url(../Images/homepage.background.png) 320 round;
+}
+
+#frame {
+    border: 5px solid rgb(207,186,100);
+    box-shadow: 0 0 10px 5px rgb(128, 128, 128);
+}
+
+#Logo {
+    height: 50px;
+    width: 200px;
+    position: relative;
+    right: -70px;
+    bottom: -15px;
+}
+
+#mainNav ul {
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+#mainNav li {
+    display: inline-block;
+    width: 160px;
+    height: 30px;
+}
+
+#mainNav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: lightpink;
+}
+
+#mainNav li a:hover:not(.active) {
+    color: rgb(207,186,100);
+}
+
+#mainNav .active {
+    color: rgb(207,186,100);
+}
+
+.notAllowed {
+    cursor: not-allowed;
+    color: lightslategray;
+    text-decoration: none;
+}
+
+#breadCrumbs {
+    text-align: right;
+    font-size: 15px;
+    position: relative;
+}
+
+#breadCrumbs ol li {
+    display: inline-block;
+}
+
+#breadCrumbs ol li::after{
+    content: ">"
+}
+
+#breadCrumbs ol li:last-child::after {
+    content: "";
+}
+
+#breadCrumbs a {
+    color: lightpink;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+article {
+    text-align: center;
+}
+
+h1 {
+    padding-bottom: 40px;
+    font-weight: bolder;
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: 'DanaYadAlefAlefAlef-Normal';
+}
+
+#underline {
+    height: 5px;
+    width: 230px;
+    position: relative;
+    top: -50px;
+}
+
+#ring {
+    position: relative;
+    height: 105px;
+    width: 100px;
+    bottom: -100px;
+    right: -180px;
+}
+
+#underLine {
+    width: 250px;
+    height: 30px;
+    position: relative;
+    top: -50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: 'DanaYadAlefAlefAlef-Normal';
+}
+
+#introtxt {
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: justify;
+}
+
+h3 {
+    width: 250px;
+    text-align: justify;
+    font-family: 'DanaYadAlefAlefAlef-Normal';
+    font-weight: bolder;
+}
+
+#pricetxt {
+    display: inline-block;
+    width: 200px;
+    margin: 30px;
+    text-align: right;
+}
+
+#diamondtxt {
+    padding-right: 200px;
+    padding-left: 200px;
+    text-align: center;
+}
+
+#dollar {
+    height:150px;
+    width:150px;
+    position: relative;
+    left: -20px;
+}
+
+#diamond {
+    height: 400px;
+    width: 500px;
+}
+
+header {
+    display: inline-block
+}
+
+#criteriaFrame1 {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    bottom: -130px;
+    padding-bottom: 50px;
+}
+
+#criteriaFrame2 {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    bottom: -130px;
+    padding-bottom: 50px;
+}
+
+#criteriaFrame3 {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    bottom: -130px;
+    padding-bottom: 50px;
+}
+
+#criteriaFrame4 {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    bottom: -130px;
+    padding-bottom: 50px;
+}
+
+#diamondClean {
+    width: 500px;
+    position: relative;
+}
+
+#diamondColor {
+    width: 500px;
+    left: -30px;
+    bottom: -20px;
+    position: relative;
+}
+
+#diamondCarat {
+    width: 500px;
+    position: relative;
+    bottom: -50px;
+    left: -30px;
+}
+
+#diamondCut{
+    width: 500px;
+    height: 160px;
+    left: -30px;
+    position: relative;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'DanaYadAlefAlefAlef-Normal';
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+}
+
+#criteriatxt2 {
+    text-align: justify;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+
+#criteriatxt3 {
+    text-align: justify;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+
+#criteriatxt4 {
+    text-align: justify;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+
+#criteriatxtUL {
+    list-style: circle;
+    text-align: justify;
+    padding-right: 320px;
+}
+
+#ringSizeSEC {
+    margin-top: 100px;
+    padding-right: 300px;
+    padding-left: 300px;
+    text-align: justify;
+}
+
+#sizeh2 {
+    margin-bottom: 40px;
+}
+
+#ringSizeLogo {
+    position: relative;
+    height: 110px;
+    width: 100px;
+    right: -130px;
+    top: -90px;
+}
+
+#ringSizePic {
+    position: relative;
+    top: -90px;
+    width: 575px;
+}
+
+#line1r {
+    height: 1px;
+    width: 300px;
+    position: relative;
+    bottom: -55px;
+    right: -300px;
+}
+
+#line1l {
+    height: 1px;
+    width: 300px;
+    position: relative;
+    top: -55px;
+    left: -300px;
+}
+
+#line2r {
+    height: 1px;
+    width: 300px;
+    position: relative;
+    bottom: -55px;
+    right: -300px;
+}
+
+#line2l {
+    height: 1.5px;
+    width: 300px;
+    position: relative;
+    top: -55px;
+    left: -300px;
+}
+
+#line3r {
+    height: 1px;
+    width: 300px;
+    position: relative;
+    bottom: -57px;
+    right: -300px;
+}
+
+#line3l {
+    height: 1px;
+    width: 300px;
+    position: relative;
+    top: -65px;
+    left: -300px;
+}
+
+#access {
+    height: 90px;
+    width: 80px;
+    position: relative;
+    float: right;
+}
+
+footer {
+    position: relative;
+    background-color: rgb(243, 228, 236);
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}

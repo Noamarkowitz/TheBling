@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>The Bling - Guides</title>
+    <meta name="description" content="עמוד מדריכים" />
+    <meta name="keywords" content="מדריכים" />
+    <meta name="author" content="נועה מרקוביץ, אופיר לבקוביץ ושחר רוזן" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+    <link rel="icon" href="Images/SiteIcon.png" />
+    <!--<link href="styles/reset.css" rel="stylesheet" />-->
+    <link href="styles/Guides.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+</head>
+<body>
+<div id="container">
+    <div id="frame">
+        <div id="mainNav">
+            <nav role="navigation">
+                <ul>
+                    <li><a href="index.html"><img id="Logo" class="logoCenter" src="Images/SiteLogo.png" /></a></li>
+                    <li><a class="notAllowed" href="#">אופנה</a></li>|
+                    <li><a class="active" href="Guides.html">מדריכים</a></li>|
+                    <li><a href="Gems.html">אבני חן</a></li>|
+                    <li><a href="Guidemen.html">המדריך לגבר האבוד</a></li>|
+                    <li><a href="About.html">אודות</a></li>
+                </ul>
+            </nav>
+        </div>
+        <hr />
+        <div id="breadCrumbs">
+            <nav>
+                <ol>
+                    <li><a href="index.html">דף הבית </a></li>
+                    <li>מדריכים</li>
+                </ol>
+            </nav>
+        </div>
+
+        <div id="madrichim">
+            <h1>המדריכים שישדרגו אתכן</h1>
+            <img id="line" src="Images/line masusa.png" />
+            <div>
+                <a onclick="big()" href="#"><img id="access" src="Images/Accessability.png" /></a>
+                <script>
+                    var isbig = true
+                    function big() {
+                        var body = document.getElementsByTagName('body')[0];
+                        isbig == true ? body.style.zoom = "200%" : body.style.zoom = "100%";
+                        isbig == true ? isbig = false : isbig = true;
+                    }
+                </script>
+            </div>
+            <div id="div1">
+                <h3 class="hader1">מדריך לנקיון התכשיט</h3>
+                <p class="kitov1">כי הגיע הזמן להחזיר את הבלינג לתכשיטים שלך</p>
+
+                <a href="Cleanguide.html">
+                    <img id="misgarat1" src="Images/GuideMenRings.TxtFrame.png" />
+                    <img id="sabun" src="Images/soap masusa.png" />
+                </a>
+            </div>
+            <div id="div2">
+                <h3 class="hader2">מדריך למציאת מידה</h3>
+                <p class="kitov2">בואי וגלי מהי המידה שלך ללא מאמץ</p>
+            </div>
+            <img class="notAllowed" id="misgarat2" src="Images/GuideMenRings.TxtFrame.png" />
+            <img id="ring" src="Images/masusa ring.png" />
+            <div id="div3">
+                <h3 class="hader3">DIY תכשיטים</h3>
+                <p class="kitov3">תמיד חלמת לעצב תכשיטים? זה פשוט משחשבת </p>
+            </div>
+            <img class="notAllowed" id="misgarat3" src="Images/GuideMenRings.TxtFrame.png" />
+            <img id="scisors" src="Images/ssciorscircle masusa - Copy.png" />
+        </div>
+        <footer>
+            <hr />
+            <a href="SiteMap.html">מפת האתר</a> |
+            <a href="ContactUs.html">צור קשר</a>
+            <br />
+            Ⓒ כל הזכויות שמורות ליוצרות האתר
+        </footer>
+    </div>
+    </div>
+</body>
+</html>
